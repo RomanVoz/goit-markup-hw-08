@@ -1,0 +1,133 @@
+
+.fon-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--bg-color);
+}
+
+.about-contacts {
+    margin-right: 70px;
+}
+
+.contacts {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    padding-bottom: 9px;
+}
+
+.map-mail-tel:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.social-icon-footer {
+    display: flex;
+}
+
+.map-link {
+    font-family: var(--general-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color-general);
+}
+
+.contact-footer {
+    font-family: var(--general-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.join {
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    text-transform: uppercase;
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-color-general);
+}
+
+.social-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.social-icon-join {
+    fill: #FFFFFF;
+}
+
+.social-link:hover,
+.social-link:focus {
+    border-radius: 50%;
+    background-color: var(--hover-color);
+}
+
+.social-link:hover .social-icon-join,
+.social-link:focus .social-icon-join {
+    fill: var(--text-color-general);
+}
+
+.social-link-another {
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-form-text {
+    display: flex;
+    margin-top: 12px;
+    padding-bottom: 20px;
+
+    font-family: var(--general-font);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--text-color-general);
+}
+
+.footer-form {
+    display: inline-block;
+    margin-left: 93px;
+}
+
+.icon-send {
+    margin-left: 10px;
+}
+
+.footer-form-email {
+    margin: 0;
+    padding: 16px 12px;
+    
+    min-width: 358px;
+    min-height: 50px;
+    margin-right: 12px;
+    align-items: center;
+    justify-content: center;
+
+    background-color: transparent;
+    color: #FFFFFF;
+
+    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.bt-footer {
+    min-width: 200px;
+    height: 50px;
+}

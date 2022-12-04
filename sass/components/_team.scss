@@ -1,0 +1,81 @@
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.fon-people {
+    margin-right: 30px;
+    background-color: var(--text-color-general);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.family {
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+.team-people {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.people-name {
+    margin-bottom: 10px;
+    text-align: center;
+
+    font-family: var(--general-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.people-work {
+    text-align: center;
+    
+    font-family: var(--general-font);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
+
+.social-icon-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+    padding-bottom: 30px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+    transition: var(--animation);
+
+        &:hover,
+        &:focus {
+        border-radius: 50%;
+        background-color: var(--hover-color);
+    }
+}
+
+.social-icon {
+    fill: #AFB1B8;
+    transition: fill 250ms ease-in;
+
+        .social-link:hover &,
+        .social-link:focus & {
+        fill: var(--text-color-general);
+    }
+}
+
