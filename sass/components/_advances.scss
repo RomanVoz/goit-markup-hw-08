@@ -1,21 +1,61 @@
 .advances {
-    padding-top: 94px;  
-    padding-bottom: 94px;  
+    
+@media screen and (min-width: $mobile) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+@media screen and (min-width: $tablet) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+@media screen and (min-width: $desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
+    
 }
 
 .Feature {
-    display: flex;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        }
+    
 }
 
 .advances__list {
-    max-width: 270px;
 
-    
-    &:not(:last-child) {
+    @media screen and (min-width: $mobile) {
+        max-width: 450px;
+        margin-bottom: 30px;
+        }
+
+    @media screen and (min-width: $tablet) {
+        max-width: 354px;
+
+        &:nth-child(odd) {
         margin-right: 30px;
     }
+        }
+
+    @media screen and (min-width: $desktop) {
+        max-width: 270px;
+        
+        &:not(:last-child) {
+        margin-right: 30px;
+    }
+        }
 }
 
 
@@ -23,11 +63,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: $mobile) {
+        width: 450px;
+        height: 120px;
+    }
+
+    @media screen and (min-width: $tablet) {
+        width: 354px;
+        height: 120px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 270px;
+        height: 120px;  
+    }
 }
 
 .advances__title {
@@ -43,6 +96,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--text-color);
+
+    @media screen and (min-width: $mobile) {
+        text-align: center;
+    }
 }
 
 .advances__info {

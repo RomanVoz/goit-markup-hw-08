@@ -1,14 +1,29 @@
 .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #F5F4FA;
+    
+        @media screen and (min-width: $desktop) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        }
 }
 
 .fon-people {
-    margin-right: 30px;
     background-color: var(--text-color-general);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+
+    @media screen and (min-width: $mobile) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: $tablet) {
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 0;
+    }
 }
 
 .family {
@@ -18,8 +33,23 @@
 
 .team-people {
     display: flex;
+    gap: 30px;
     margin: 0;
     padding: 0;
+
+    @media screen and (min-width: $mobile) {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    @media screen and (min-width: $tablet) {
+    }
+
+    @media screen and (min-width: $desktop) {
+        flex-wrap: nowrap;
+    }
 }
 
 .people-name {
