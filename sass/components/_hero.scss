@@ -46,7 +46,7 @@
         to right,
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
-        ), url(../img/hero/img_l@1x.jpg);
+        ), url(../img/hero/Img_l@1x.jpg);
     
       
       /* 2x screens, retina,*/
@@ -57,7 +57,7 @@
             to right,
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)
-            ), url(../img/hero/img_l@2x.jpg);
+            ), url(../img/hero/Img_l@2x.jpg);
     }
     }
 
@@ -75,7 +75,7 @@
     margin: 0 auto;
     padding: 0;
     margin-bottom: 30px;
-    max-width: 696px;
+    max-width: 360px;
 
     text-transform: uppercase;
     font-family: var(--general-font);
@@ -87,6 +87,7 @@
 
     @media screen and (min-width: $desktop) {
         font-size: 44px;
+        max-width: 696px;
         }
 }
 

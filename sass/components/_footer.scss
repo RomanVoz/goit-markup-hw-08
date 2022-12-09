@@ -143,10 +143,9 @@
 
 .footer-form {
     @media screen and (min-width: $mobile) {
-
-    }
-
-    @media screen and (min-width: $tablet) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     @media screen and (min-width: $desktop) {

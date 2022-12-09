@@ -51,6 +51,7 @@
 
     @media screen and (min-width: $desktop) {
         max-width: 270px;
+        margin-bottom: 0;
         
         &:not(:last-child) {
         margin-right: 30px;
@@ -99,6 +100,10 @@
 
     @media screen and (min-width: $mobile) {
         text-align: center;
+    }
+
+    @media screen and (min-width: $tablet) {
+        text-align: left;
     }
 }
 
