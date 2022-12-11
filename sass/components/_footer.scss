@@ -14,8 +14,12 @@
 }
 
 .about-contacts {
+    @media screen and (min-width: $tablet) {
+        margin-left: 60px;
+        }
 
     @media screen and (min-width: $desktop) { 
+        margin-left: 0;
         margin-right: 70px;
         }
 }
@@ -25,6 +29,16 @@
     margin-top: 20px;
     padding: 0;
     padding-bottom: 9px;
+}
+
+.about-join {
+     @media screen and (min-width: $tablet) {
+        margin-left: 165px;
+        }
+
+    @media screen and (min-width: $desktop) { 
+        margin-left: 0;
+        }
 }
 
 .map-mail-tel:not(:last-child) {
@@ -153,8 +167,14 @@
         align-items: center;
     }
 
+     @media screen and (min-width: $tablet) {
+        margin-top: 60px;
+        margin-left: 165px;
+    }
+
     @media screen and (min-width: $desktop) {
         display: inline-block;
+        margin-top: 0px;
         margin-left: 93px;
     }
 

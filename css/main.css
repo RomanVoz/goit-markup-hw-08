@@ -782,8 +782,14 @@ ul {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .about-contacts {
+    margin-left: 60px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .about-contacts {
+    margin-left: 0;
     margin-right: 70px;
   }
 }
@@ -793,6 +799,17 @@ ul {
   margin-top: 20px;
   padding: 0;
   padding-bottom: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-join {
+    margin-left: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-join {
+    margin-left: 0;
+  }
 }
 
 .map-mail-tel:not(:last-child) {
@@ -951,9 +968,16 @@ ul {
             align-items: center;
   }
 }
+@media screen and (min-width: 768px) {
+  .footer-form {
+    margin-top: 60px;
+    margin-left: 165px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer-form {
     display: inline-block;
+    margin-top: 0px;
     margin-left: 93px;
   }
 }
