@@ -65,11 +65,10 @@ ul {
   margin: auto;
   padding: 0 15px;
   height: auto;
-  outline: 2px red solid;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 320px) {
   .container {
-    width: 480px;
+    width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -364,7 +363,7 @@ ul {
   background-color: var(--active-botton);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .advances {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -412,7 +411,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .advances__list {
     max-width: 450px;
     margin-bottom: 30px;
@@ -450,7 +449,7 @@ ul {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .advances__label {
     width: 100%;
     height: 120px;
@@ -482,7 +481,7 @@ ul {
   text-transform: uppercase;
   color: var(--text-color);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .advances__title {
     text-align: center;
   }
@@ -747,7 +746,7 @@ ul {
   -webkit-transition: color var(--animation);
   transition: color var(--animation);
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .clients-link {
     width: 210px;
   }
@@ -816,7 +815,7 @@ ul {
   margin-bottom: 9px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .social-icon-footer {
     display: block;
     text-align: center;
@@ -954,7 +953,7 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-form {
     display: -webkit-box;
     display: -ms-flexbox;
