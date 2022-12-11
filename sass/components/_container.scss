@@ -1,4 +1,4 @@
-$mobile: 320px;
+$mobile: 480px;
 $tablet: 768px;
 $desktop: 1200px;
 
@@ -8,15 +8,14 @@ $desktop: 1200px;
     padding: 0 15px;
     height: auto;
 
-    // outline: 2px red solid;
+    outline: 2px red solid;
 
-    @media screen and (max-width: $mobile) {
+    @media screen and (min-width: $mobile) {
     width: $mobile;
     }
 
     @media screen and (min-width: $tablet) {
     width: $tablet;
-    height: auto;
     }
 
     @media screen and (min-width: $desktop) {
